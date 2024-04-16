@@ -7,7 +7,7 @@ Leaflet Point Map with Sidebar with Google Sheets -- Best to display points as c
 
 Demo map: https://handsondataviz.github.io/leaflet-point-map-sidebar/
 
-Google Sheet: https://docs.google.com/spreadsheets/d/e/2PACX-1vS8eCLOLojyX3uiFFj8eRZv5ncFPy1CNu99bXzuCC643dz_jCmQfMAdrJQXpNoOavcaE5Ze3LcQQ06k/pub?gid=0&single=true&output=csv
+Google Sheet: https://docs.google.com/spreadsheets/d/e/2PACX-1vSI2bs4Jxow-H2twmzRAnDiySG9thbUGxeuwENwfc70eiK9VIHtAXrVCMrnw1xUnDaLxpZzp3-ukEOg/pub?output=csv
 
 Created by Ilya Ilyankou and Jack Dougherty. Learn how to create your own copy and see related Leaflet map templates in our book, *Hands-On Data Visualization*: https://handsondataviz.org/leaflet.html
 
@@ -28,7 +28,7 @@ variable in the `settings.js` file as shown below. Make sure that the long link 
 ```
 // Where to load data from. Choose either a local file, such as `data/places.csv`,
 // or a Google Sheets URL (File > Publish to the Web > CSV )
-const dataLocation = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQCz1kNG2vxDke45Q0H8moWaFZZ-dhRSp34EKD_eMVWE-YjJTFDAcxdXydWSJ26JF4Ap4zlaZD1p9oi/pub?gid=0&single=true&output=csv';
+const dataLocation = '[https://docs.google.com/spreadsheets/d/e/2PACX-1vQCz1kNG2vxDke45Q0H8moWaFZZ-dhRSp34EKD_eMVWE-YjJTFDAcxdXydWSJ26JF4Ap4zlaZD1p9oi/pub?gid=0&single=true&output=csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vSI2bs4Jxow-H2twmzRAnDiySG9thbUGxeuwENwfc70eiK9VIHtAXrVCMrnw1xUnDaLxpZzp3-ukEOg/pub?output=csv)';
 ```
 
 Or, after you finish creating your map data in Google Sheets, you can *File > Download* as a CSV file and store it locally in your online copy of the GitHub folder, and enter the file pathname (such as `data/places.csv`) into the `dataLocation` variable `settings.js` file above. Storing your data locally with the map code template is a good strategy for long-term preservation, because you no longer depend on a remote link to the Google Sheets platform. Also, you can always re-edit the CSV file as needed on GitHub or with a spreadsheet tool.
