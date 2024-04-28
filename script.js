@@ -230,7 +230,7 @@ var initMap = function() {
 
   map = L.map('map', {
     center: mapCenter,
-    zoom: maxZoomLevel
+    zoom: maxZoomLevel,
     tap: false, // to avoid issues in Safari, disable tap
     zoomControl: false,
     maxZoom: maxZoomLevel,
