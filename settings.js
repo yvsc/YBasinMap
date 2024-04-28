@@ -3,7 +3,8 @@
 const dataLocation = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSI2bs4Jxow-H2twmzRAnDiySG9thbUGxeuwENwfc70eiK9VIHtAXrVCMrnw1xUnDaLxpZzp3-ukEOg/pub?output=csv';
 
 // Map's initial center, and zoom level
-const mapCenter = [40.511, -107.210];
+const mapCenter = [40.511, -107.290]; 
+
 const mapZoom = 9;
 const maxZoomLevel = 9; 
 
