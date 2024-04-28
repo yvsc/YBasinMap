@@ -233,6 +233,7 @@ var initMap = function() {
     zoom: mapZoom,
     tap: false, // to avoid issues in Safari, disable tap
     zoomControl: false,
+    maxZoom: maxZoomLevel,
   });
 
   // Add zoom control to the bottom-right corner
