@@ -2,6 +2,7 @@ var data = {};
 var groups = {};
 var map;
 
+
 /*
  * Given a string `str`, replaces whitespaces with dashes,
  * and removes nonalphanumeric characters. Used in URL hash.
