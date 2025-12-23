@@ -84,7 +84,8 @@ Explore the growing network of observation stations across the Upper Yampa River
     <footer class="black-50 f6 pv3">
     <a href="https://yvsc.org/soil-moisture-monitoring-network/" target="_blank">Click here to learn more about YBasin</a>
     </footer>
-
+ L.control.layers({}, groups, {collapsed: false}).addTo(map);
+  $('.leaflet-control-layers-overlays').prepend('<h3 class="mt0 mb1 f5 black-30"> Map Layers </h3>');
   </div>
 
   <!-- Map container -->
